@@ -1,0 +1,24 @@
+{
+  "name": "domain-name-finder",
+  "version": "1.0.0",
+  "description": "AI-powered domain name generator and availability checker using Claude API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "domain",
+    "whois",
+    "claude",
+    "ai",
+    "domain-checker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.67.0",
+    "dotenv": "^17.2.3"
+  }
+}
